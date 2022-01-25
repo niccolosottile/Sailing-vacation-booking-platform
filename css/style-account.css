@@ -1,0 +1,96 @@
+#sidebar {
+        width: 0; /* change width with Javascript to 270px */
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        z-index: 1;
+        background: #354375;
+        color: #fff;
+        transition: all 0.3s;
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px;
+        transition: 0.5s; /* 0.5 seconds transition effect to slide the sidebar */
+    }
+/* The button used to open the sidebar */
+.openbtn{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #696969;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+.openbtn:hover{
+    background-color: #354375;
+}
+/* Use this to push the page content to the right when you open the side navigation */
+#main {
+  transition: 0.5s; /* If you want a transition effect */
+  padding: 20px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  #sidebar {padding-top: 15px;}
+  #sidebar ul li a {font-size: 18px;}
+}
+/*
+    ADDITIONAL DEMO STYLE, NOT IMPORTANT TO MAKE THINGS WORK BUT TO MAKE IT A BIT NICER :)
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+@font-face {
+  font-family: 'Brush Script MT';
+  src: url('brushscriptmt.ttf');
+}
+
+body {
+    font-family: 'Brush Script MT';
+    background: #fafafa;
+}
+
+a, a:hover, a:focus {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    background: #354375;
+    font-family: 'Brush Script MT';
+}
+h3 {
+    font-size: 32px;
+    padding: 10px;
+}
+
+#sidebar ul .components {
+    padding: 20px;
+    border-bottom: 1px solid #334996;
+}
+
+#sidebar ul {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.2em;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+#checklinks li a:hover {
+    color: #334996;
+    background: #fff;
+}
+p{
+    text-align: center;
+    font-size: 1.35em: 
+}
+
+#sidebar ul li.active > a {
+    color: #fff;
+    background: #334996;
+}

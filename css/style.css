@@ -1,0 +1,557 @@
+/*This modifies the navbar container */
+/* Original color is #004789 */
+.my-navbar {
+    background-color: #354375;
+}
+
+.navbar-nav li a {
+    color: white !important;
+}
+
+/*This modifies the navbar brand style*/
+.header-text-change {
+    font-size: 38px;
+    font-family: Brush Script MT;
+}
+
+@font-face {
+    font-family: 'Brush Script MT';
+    src: url('brushscriptmt.ttf');
+}
+
+.navbar-nav li a .active {
+    color: #354375 !important;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: #e7e7e7;
+    color: #354375 !important;
+}
+
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin: 7.5px -15px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .collapsing {
+        overflow: hidden !important;
+    }
+}
+
+.full-width-image {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.full-width-image img {
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    margin-top: 10px;
+}
+
+.image-text-container {
+    margin: 10 10 10 10;
+}
+
+.image-text-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-text-container-resized {
+    margin: 10 10 10 10;
+}
+
+.image-text-container-resized img {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    border: 2px solid;
+    color: black;
+    text-align: center;
+    width: 50%;
+}
+
+@media (max-width: 1024px) {
+    .text-container-adaptive {
+        border: 2px solid;
+        color: black;
+        text-align: center;
+        width: 85%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .text-container-adaptive {
+        border: 2px solid;
+        color: black;
+        text-align: center;
+        width: 70%;
+    }
+}
+
+h2 {
+    font-size: 25px;
+    font-family: Century Gothic bold;
+}
+
+p {
+    font-size: 19px;
+    font-family: Century Gothic;
+}
+
+
+.modify-footer {
+    background-color: black;
+    color: white;
+    font-family: Century Gothic bold;
+    font-size: 23px;
+
+}
+
+.modify-footer-links {
+    color: darkgrey;
+    font-size: 20px;
+}
+
+a.modify-footer-links {
+    color: darkgrey;
+    font-size: 20px;
+}
+
+.footer-notice {
+    font-size: 16px;
+    color: white;
+    margin-left: 20px;
+
+}
+
+a.footer-notice {
+    color: white;
+    font-size: 16px;
+}
+
+.icons {
+    display: inline-block;
+}
+
+/*Make the booking page responsive*/
+@media (min-width: 768px) {
+    .container-scroll {
+        background: transparent;
+        padding: 10px;
+        overflow-y: scroll;
+        height: 1000px;
+        width: 80%;
+    }
+
+    .calendar-container {
+        width: 100%;
+        padding: 10px;
+        margin-left: 40px;
+    }
+
+    .card .card-img-top img {
+        width: 80%;
+        height: 300px;
+
+    }
+}
+
+@media (max-width: 767px) {
+
+    .container-scroll {
+        background: transparent;
+        width: 100%;
+
+
+    }
+
+    .calendar-container {
+        width: 100%;
+
+    }
+
+    .phone-view-block {
+        padding: 10px;
+        align-content: center;
+    }
+
+    .card .card-img-top img {
+        width: 100%;
+        height: 300px;
+
+    }
+}
+
+hr {
+    border-color: black;
+    border-width: 2px;
+}
+
+.master-text {
+    text-transform: uppercase !important;
+    letter-spacing: 2px;
+    font-size: 28px;
+}
+
+.modify-form {
+    display: none;
+}
+
+#calendar {
+    font-size: 15px;
+    font-family: Century Gothic;
+    font-style: italic;
+    letter-spacing: 1px;
+
+
+}
+
+.fc-center {
+    color: #004789;
+
+
+}
+
+.fc-head {
+    color: #004789;
+}
+
+.container-slide-carousel {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+}
+
+.carousel-inner > .item > img {
+    width: 100%;
+
+}
+
+.carousel-inner > .item {
+    max-height: 620px;
+}
+
+.card-info {
+    background-color: #3B6DA1;
+    color: white;
+    width: 100%;
+    font-family: Century Gothic;
+    font-weight: 300;
+
+
+}
+
+#title-info {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: Century Gothic;
+    font-weight: 100;
+}
+
+#white {
+    border-color: white;
+}
+
+#p-info {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.planimetry {
+    width: 110%;
+    margin-top: 15px;
+
+}
+
+@media (min-width:768px) {
+    .position-info-left {
+
+        padding-right: 150px;
+    }
+
+    .position-info-right {
+        padding-left: 25px;
+    }
+}
+
+/* Styling for our team feature */
+
+.subtitle {
+    color: grey;
+    font-style: oblique;
+}
+
+/* Three columns side by side */
+.column-team {
+    align-content: center;
+    width: 40%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column-team {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card-team {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* Some left and right padding inside the container */
+.container-team {
+    padding: 0 16px;
+}
+
+.row-centered {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.title-team {
+    color: grey;
+}
+
+/* Styling gallery */
+
+.column-gallery {
+    margin-bottom: 20px;
+}
+
+.card-gallery {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.container-fluid {
+    height: 100%
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../img/edenjsaloon.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 769px) {
+    .form-enquire {
+
+        width: 45%;
+        display: inline-block;
+        text-align: left;
+        background-color: rgba(0, 0, 0, 0.45);
+
+    }
+
+}
+
+.form-enquire {
+
+    display: inline-block;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.45);
+
+}
+
+
+.btn {
+
+    text-align: center;
+}
+
+.text-form {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    color: white;
+    font-style: normal;
+    font-size: 22px;
+
+
+}
+
+.form-group {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn-forms {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+h1 {
+    padding-left: 15px;
+    color: white;
+    font-family: Century Gothic bold;
+    font-size: 28px;
+
+}
+
+.form-enquire hr {
+    width: 95%;
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.career-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal2 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.career-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
