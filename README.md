@@ -10,6 +10,4 @@
 - **Admins can update the vacations offered, manage bookings and view incoming enquiries on the boat. The admin is notified by email when new enquiries are received.**
 - **Admins can analyse yearly sales value sorted by month and view customer nationalities in a pie chart.**
 
-[![Booking system](https://img.youtube.com/vi/-quQmHqUYak/maxresdefault.jpg)](https://www.youtube.com/watch?v=-quQmHqUYak)
-
-hqdefault.jpg
+[![Demo video](https://img.youtube.com/vi/-quQmHqUYak/maxresdefault.jpg)](https://www.youtube.com/watch?v=-quQmHqUYak)
