@@ -9,3 +9,5 @@
 - **A personal dashboard offers customers the ability to manage their account, see booked vacations and leave a review on completed vacations.**
 - **Admins can update the vacations offered, manage bookings and view incoming enquiries on the boat. The admin is notified by email when new enquiries are received.**
 - **Admins can analyse yearly sales value sorted by month and view customer nationalities in a pie chart.**
+
+{% include youtube.html id="HqH7tjhCLvY" %}
