@@ -1,5 +1,5 @@
 # Sailing vacation booking platform
-**Web app created which provides an itinerary based booking experience for sailing vacations around the globe.**
+**Web app created for a startup, providing an itinerary based booking experience for sailing vacations around the globe.**
 
 **The web app contains a list of features outlined in the points below:**
 
